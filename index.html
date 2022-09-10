@@ -6,21 +6,32 @@
     <script src="app.js"></script>
     <!-- import CSS styles -->
     <link rel="stylesheet" href="styles.css" /> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
   </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
 
   <!-- page content goes into <body> -->
   <body>
     <div id="cs1300-gallery">
-      <h1>Welcome to my bakery</h1>
-      <p>Add your own images and styles!</p>
+      <h1 class="welcome">Crémeux Pâtisserie</h1>
+      <p class="welcome-p"> With flavours like Jasmine Kocha, Raspberry Rose, Salted Caramel Chocolate, Genmaicha and Osmanthus Yuzu, how can we resist popping one (or five) of these tarts from Crémeux Pâtisserie? While slots for July have been closed, make sure to keep an eye out for an exciting new menu that’s launching in August. </p>
 
       <!-- TODO: PART I Add your own images and use CSS flex to make sure they work on different screen sizes -->
       <div class="gallery-item-container">
-        <img class="gallery-item" src="./assets/jeff.jpg" alt="jeff watching u">
+        <img class="gallery-item" src="./assets/0.jpg" alt="desserts">
+        <img class="gallery-item" src="./assets/1.jpg" alt="desserts">
+        <img class="gallery-item" src="./assets/2.jpg" alt="desserts">
+        <img class="gallery-item" src="./assets/4.jpg" alt="desserts">
+        <img class="gallery-item" src="./assets/5.jpg" alt="desserts">
+        <img class="gallery-item" src="./assets/6.jpg" alt="desserts">
+        <img class="gallery-item" src="./assets/14.jpg" alt="desserts">
+        <img class="gallery-item" src="./assets/11.jpg" alt="desserts">
+        <img class="gallery-item" src="./assets/12.jpg" alt="desserts">
       </div>
 
       <!-- TODO: PART II Uncomment the line below, and hook up this button to display data from an API -->
-      <!-- <button onclick="">Press this button to display some fruit data</button> -->
+      <button onclick="updatePage()" class="fruit-button">Press this button to display some fruit data</button>
     </div>
   </body>
 

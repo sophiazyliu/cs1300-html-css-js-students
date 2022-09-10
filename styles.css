@@ -1,7 +1,48 @@
 #cs1300-gallery {
-  background-color: lightblue;
+  font-family: 'Inter', sans-serif;
+  flex-direction: column; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.gallery-container {
-  /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+.welcome {
+  display: flex;
+  justify-content: center;
+}
+
+.welcome-p {
+  display: flex;
+  width: 50%;
+}
+
+.gallery-item-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-wrap: wrap;
+  width: 100vw;
+  gap: 0.8rem;
+}
+
+.gallery-item {
+  height: 30vw;
+}
+
+.fruit-button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #76b6ff;
+  border: none;
+  color: #d3edff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 12px;
+}
+
+.fruit-button:hover {
+  background-color: rgb(88, 148, 215);
 }
